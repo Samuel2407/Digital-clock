@@ -1,9 +1,13 @@
+from test import clock_test
+
+debug = True
+
 def main() -> None:
     pass
     
-    
-def tets() -> None:
-    pass
-    
+
 if __name__ == '__main__':
-    tets()
+    if debug:
+        clock_test()
+    else:
+        main()
